@@ -1,0 +1,140 @@
+/***************************************/
+/**********Besic Set up*****************/
+/***************************************/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  text-rendering: optimizeLegibility;
+
+  color: white;
+  background-color: rgb(248, 249, 250);
+}
+
+.row {
+  width: 1140px;
+  margin: auto;
+}
+
+section {
+  overflow: hidden;
+  padding: 50px 0px;
+}
+
+/***************************************/
+/********List Product***********/
+/***************************************/
+.listProduct-section {
+  color: rgba(0, 0, 0, 0.69);
+  padding-top: 100px;
+}
+
+.listProduct-section img {
+  width: 60%;
+  height: auto;
+}
+
+.listProduct-section .update-btn {
+  color: white;
+  text-decoration: none;
+}
+
+/***************************************/
+/********create Form Section***********/
+/***************************************/
+
+.createForm-section {
+  padding-top: 100px;
+  color: black;
+}
+.createForm-section h2 {
+  text-align: center;
+  color: rgba(128, 128, 128, 0.621);
+  padding: 20px 0px;
+}
+
+.createForm-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px 40px;
+}
+
+.createForm-grid label {
+  display: block;
+}
+
+.createForm-grid input {
+  width: 90%;
+  height: 35px;
+  border: 0.5px solid rgba(128, 128, 128, 0.437);
+  border-radius: 4px;
+}
+
+.createForm-btn button {
+  margin-top: 30px;
+  background-color: green;
+  border: 0px;
+  color: white;
+  width: 200px;
+  height: 40px;
+  border-radius: 2px;
+}
+
+/***************************************/
+/********Update Form Section***********/
+/***************************************/
+.updateForm-section {
+  padding-top: 100px;
+  color: black;
+}
+
+.updateForm-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px 40px;
+}
+
+.updateForm-grid label {
+  display: block;
+}
+
+.updateForm-grid input {
+  width: 90%;
+  height: 35px;
+  border: 0.5px solid rgba(128, 128, 128, 0.437);
+  border-radius: 4px;
+}
+
+.updateForm-btn button {
+  margin-top: 30px;
+  background-color: green;
+  border: 0px;
+  color: white;
+  width: 200px;
+  height: 40px;
+  border-radius: 2px;
+}
+
+.updateForm-section h2 {
+  text-align: center;
+  color: rgba(128, 128, 128, 0.621);
+  padding: 20px 0px;
+}
+
+.updateForm-btn-link {
+  color: white !important;
+}
+/***************************************/
+/********Navigation Section***********/
+/***************************************/
+.navigation-list {
+  color: white;
+  margin-left: 50px;
+  font-size: 20px;
+  text-decoration: none;
+}
